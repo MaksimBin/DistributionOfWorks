@@ -31,6 +31,30 @@ body{
   color: hotpink;
 }
 
+.modal-jobs{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  color: white;
+  z-index: 5;
+}
+
+.input-jobs{
+  color: black;
+  height: 40px;
+  border:solid 1px slategray;
+  background-color: black;
+  color: white;
+  margin: 5px;
+  text-align: start;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
 .inputSave{
   display: flex;
   flex-direction: column;
@@ -79,4 +103,20 @@ body{
 
 .green{
   background-color: green;
+}
+
+.jobs{
+  display: flex;
+  flex-direction: column;
+}
+
+.jobs-btn{
+  height: 40px;
+  border:solid 1px slategray;
+  background-color: black;
+  color: white;
+  margin: 5px;
+  text-align: start;
+  font-weight: bold;
+  border-radius: 8px;
 }
